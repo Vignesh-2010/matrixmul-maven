@@ -1,3 +1,3 @@
-FROM openjdk:17
+FROM eclipse-temurin:21-jdk
 COPY target/fatagile-1.0.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
